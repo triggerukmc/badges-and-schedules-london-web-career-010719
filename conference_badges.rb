@@ -16,7 +16,7 @@ end
 
 def printer(array)
   speakers = batch_badge_creator(array)
-  assign_rooms(speakers).each do |x|
+  badge maker(speakers).each do |x|
     puts x
 end
 end
