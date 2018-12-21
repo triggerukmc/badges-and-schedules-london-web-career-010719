@@ -16,9 +16,9 @@ end
 
 def printer(array)
   
-  array.each_with_index do |a, index|
+  array.each_with_index { |a, index|
     puts batch_badge_creator(array)[index]
- puts assign_rooms(array)[index]
-end
+    puts assign_rooms(array)[index]}
+  
 end
   
