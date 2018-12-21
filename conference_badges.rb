@@ -15,7 +15,7 @@ assigned_room
 end
 
 def printer(array)
-  speakers = return batch_badge_creator(array)
+  speakers = batch_badge_creator(array)[0]
   speakers.each_with_index do |x, index|
     puts badge_maker(x)[index]
 end
