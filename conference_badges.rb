@@ -17,7 +17,7 @@ end
 def printer(array)
   
   array.each_with_index do |x, index|
-    puts badge_maker(x)[index]
+    puts batch_badge_creator(x)[index]
 end
 end
   
